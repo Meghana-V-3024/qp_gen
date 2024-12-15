@@ -1,0 +1,338 @@
+/* App.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('./new2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.header {
+  background-color: #669ae9;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  background: rgba(189, 196, 238, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px; /* Increased width */
+  width: 50%;
+  margin: 20px auto;
+  margin-left: 70px;
+
+}
+
+
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.answer-type-section, .difficulty-section, .modules-section {
+  margin: 10px 0;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.subject-list {
+  margin: 20px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background: #e7f3fe;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.clear-btn {
+  background-color: #f44336; /* Red */
+}
+
+.clear-btn:hover {
+  background-color: #e53935;
+}
+
+.print-section {
+  text-align: center;
+}
+
+.print-btn {
+  background-color: #008CBA;
+}
+
+.print-btn:hover {
+  background-color: #007bb5;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+}
+
+/* Floating Login Container */
+.login-container {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  text-align: center;
+}
+
+.login-container input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-container .login-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-container .login-btn:hover {
+  background-color: #45a049;
+}
+
+/* App.css */
+
+/* Add additional styling for the login container */
+.login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(136, 163, 173, 0.9);
+  padding: 40px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-container p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #888;
+}
+
+.login-container input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container .login-btn {
+  background-color: #4CAF50;
+  color: rgb(240, 238, 234);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 80%;
+}
+
+.login-container .login-btn:hover {
+  background-color: #45a049;
+}
+
+.person-logo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+mark{
+ background-color:#c5e6a8;
+}
+
+.right-side-container {
+  position: absolute;
+  top: 20%;
+  margin-left: 610px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  margin-top:500px ;
+ 
+}
+
+.right-side-container h2 {
+  text-align: center;
+}
+
+.right-side-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.right-side-container ul li {
+  margin-bottom: 10px;
+}
+
+.logout-btn {
+  display: block;
+  
+  width: 100%;
+  padding: 10px;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-btn:hover {
+  background-color: #c9302c;
+}
+
+/* List Container Styles */
+.list-container {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 250px;
+  padding: 15px;
+  margin-left: 750px;
+  background-color: #e7f3fe;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-container h3 {
+  text-align: center;
+  color: #333;
+}
+
+.list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-container ul li {
+  background-color: #f0f8ff;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 4px;
+  color: #333;
+}
+
+.list-container ul li:hover {
+  background-color: #d3e7f9;
+  cursor: pointer;
+}
+.logout-btn{
+  width:100px;
+ margin-top: 700px;
+
+  position: absolute;
+  top:55%;
+
+  width: 250px;
+  padding: 15px;
+  margin-left: 700px;
+  border-radius: 8px;
+ 
+}
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 100px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+
